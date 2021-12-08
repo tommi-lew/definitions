@@ -7,6 +7,10 @@
 
 months:
   1:
+  - name: New Year's Day
+    regions: [in]
+    mday: 1
+    observed: to_weekday_if_weekend(date)
   - name: Makara Sankranti
     regions: [in]
     mday: 14
